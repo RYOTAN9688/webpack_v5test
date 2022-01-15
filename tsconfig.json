@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        //出力先のディレクトリ
+        "outDir": "./dist/",
+        //出力対象となるJSのバージョン
+        "target": "ES2015",
+        "strict": true,
+        //JSXの書式を有効にする
+        "jsx": "react",
+        "lib": ["ES2020","DOM"],
+        //ESmoduleでインポートできるようにする
+        "allowSyntheticDefaultImports": true
+    }
+}
